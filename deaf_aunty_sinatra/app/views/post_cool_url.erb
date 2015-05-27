@@ -1,0 +1,50 @@
+<h1>Cool</h1>
+
+<p>Cool Day</p>
+
+
+<form action="/cool_url" method="get">
+  <select name="foods">
+    <option value="Milk">Fresh Milk</option>
+    <option value="Cheese">Old Cheese</option>
+    <option value="Bread">Hot Bread</option>
+  </select>
+<!--   <input type="text" name="user_input"> -->
+  <input type="submit" value="Cool It!">
+</form>
+
+<p>text area</p>
+
+<form action="/cool_url" method ="post">
+  <textarea cols="40" rows="5" name="testtextarea">
+    Now we are inside the area - which is nice.
+  </textarea>
+  <input type="submit" value="Flaunt it!!">
+</form>
+
+<p>checkboxes</p>
+
+<form action="/cool_url" method ="post">
+<br><input type="checkbox" name="option1" value="Milk" checked> Milk<br>
+<input type="checkbox" name="option2" value="Butter" checked> Butter<br>
+<input type="checkbox" name="option3" value="Cheese" checked> Cheese<br>
+<br>
+  <input type="submit" value="Pick it!!">
+</form>
+
+<p>RADIO BUTTONS</p>
+
+<form action="/cool_url" method ="post">
+<br>
+<input type="radio" name="group1" value="Milk"> Milk<br>
+<input type="radio" name="group1" value="Butter" checked> Butter<br>
+<input type="radio" name="group1" value="Cheese"> Cheese
+<hr>
+<input type="radio" name="group2" value="Water"> Water<br>
+<input type="radio" name="group2" value="Beer"> Beer<br>
+<input type="radio" name="group2" value="Wine" checked> Wine<br>
+  <input type="submit" value="Pick it!!">
+</form>
+
+<p>URL parameters:</p>
+<%= params %>
